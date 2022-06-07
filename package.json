@@ -1,0 +1,26 @@
+{
+  "name": "KokeshiNFT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate --network development",
+    "deploy": "truffle deploy",
+    "migrate_rink": "truffle migrate --network rinkeby",
+    "deploy_rink": "truffle deploy --network rinkeby",
+    "verify": "truffle run verify KokeshiNFT --network rinkeby",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.15",
+    "web3": "^1.6.0",
+    "web3-eth-contract": "^1.6.0"
+  }
+}
